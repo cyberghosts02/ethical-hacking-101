@@ -1,100 +1,133 @@
-# 🛡 Cybersecurity Beginner’s Roadmap
+# 🕵 OSINT Cheat Sheet — 2025 Edition
 
-> **A complete learning guide for beginners to enter cybersecurity safely, legally, and effectively — built for absolute newcomers who want to grow into professionals.**
-
----
-
-## 📌 Introduction
-Cybersecurity is one of the fastest-growing fields in technology — but starting can feel overwhelming.  
-This guide is designed to help **beginners** take the right steps, avoid common mistakes, and build skills **legally & ethically**.
-
-Whether you want to become a **penetration tester**, **security analyst**, or **ethical hacker**, this roadmap gives you a **clear, structured path**.
+> **A complete guide to Open Source Intelligence (OSINT) — tools, techniques, and workflows for investigators, cybersecurity professionals, and ethical hackers.**  
+> Updated regularly with **new tools** and **real-world methods**.
 
 ---
 
-## 🚀 Roadmap to Start Your Journey
+## 📌 What is OSINT?
+**OSINT (Open Source Intelligence)** is the process of collecting and analyzing publicly available information from online sources.  
+It’s used by:
+- Ethical Hackers & Penetration Testers
+- Cybersecurity Analysts
+- Law Enforcement & Investigators
+- Journalists & Researchers
 
-### **Phase 1 — Fundamentals**
-- Learn **Networking Basics**: TCP/IP, DNS, HTTP/HTTPS
-- Understand **Operating Systems**: Linux (Ubuntu/Kali), Windows internals
-- Master **Security Fundamentals**: Encryption, authentication, firewalls
-
-### **Phase 2 — Practical Skills**
-- Learn a scripting language (Python, Bash)
-- Explore **Command Line** skills in Linux
-- Study **OWASP Top 10** web vulnerabilities
-- Practice on **CTF Platforms** (HackTheBox, TryHackMe)
-
-### **Phase 3 — Intermediate Cybersecurity**
-- Perform **OSINT** (Open Source Intelligence) research
-- Learn **Web Application Security Testing**
-- Explore **Penetration Testing Frameworks** (Metasploit, Burp Suite)
-- Understand **Incident Response** basics
-
-### **Phase 4 — Specializations**
-- **Red Teaming**: Offensive security simulations
-- **Blue Teaming**: Threat detection & defense
-- **Reverse Engineering** & **Malware Analysis**
-- **Cloud Security** & **DevSecOps**
+⚠ **Ethical Notice:** All activities should be **legal, authorized, and ethical**. Misuse of OSINT tools may result in criminal charges.
 
 ---
 
-## ✅ Do’s (Best Practices)
-- Always work in a **legal test environment** (labs, virtual machines)
-- Document everything — create reports after tests
-- Join cybersecurity communities & forums
-- Keep learning — follow security news & CVEs
+## 🚀 OSINT Quick Start
+
+**Beginner? Follow this safe flow:**
+1. Pick your **target identifier** — username, email, IP, or domain.
+2. Search in **publicly available sources** only.
+3. Validate results with multiple tools.
+4. Document findings with timestamps & sources.
+
+**Pro Tip for Experts:** Automate repetitive searches with scripts or OSINT automation frameworks like [Recon-ng](https://github.com/lanmaster53/recon-ng).
 
 ---
 
-## ❌ Don’ts (Avoid These Mistakes)
-- Never attack real systems without written permission
-- Don’t skip **ethical guidelines** or legal research
-- Avoid relying only on tools — understand the theory
-- Don’t ignore **documentation & reporting**
+## 🔍 Search Engine Operators
+
+| Search Engine | Operator       | Example Use                               |
+|--------------|---------------|-------------------------------------------|
+| Google       | `site:`       | `site:example.com admin`                   |
+| Google       | `filetype:`   | `filetype:pdf site:gov confidential`       |
+| Bing         | `ip:`         | `ip:192.168.1.1`                            |
+| DuckDuckGo   | `intitle:`    | `intitle:"index of"`                        |
+| Yandex       | `mime:`       | `mime:pdf`                                  |
 
 ---
 
-## 📚 Recommended Resources
+## 🖼 Image & Video OSINT
 
-### **Learning Platforms**
-- [TryHackMe](https://tryhackme.com)
-- [Hack The Box](https://www.hackthebox.com)
-- [OverTheWire](https://overthewire.org)
-
-### **Books**
-- *The Web Application Hacker’s Handbook*
-- *Hacking: The Art of Exploitation*
-- *Metasploit: The Penetration Tester’s Guide*
-
-### **YouTube Channels**
-- NetworkChuck
-- The Cyber Mentor
-- John Hammond
-
-### **News & CVE Tracking**
-- [Krebs on Security](https://krebsonsecurity.com)
-- [CVE Details](https://www.cvedetails.com)
-- [Security Weekly](https://securityweekly.com)
+- **[Google Reverse Image Search](https://images.google.com/)**
+- **[TinEye](https://tineye.com/)**
+- **[Yandex Images](https://yandex.com/images/)**
+- **[InVID](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)** — Video verification & keyframe extraction
+- **[ExifTool](https://exiftool.org/)** — Extract hidden metadata from images
+- **[FotoForensics](http://fotoforensics.com/)** — Detect image manipulation
 
 ---
 
-## 🎯 Career Tips
-- Build a **portfolio** of labs & reports
-- Get **certifications** (Security+, CEH, OSCP)
-- Contribute to **open-source security projects**
-- Network with **cybersecurity professionals**
+## 📧 Email & Username Investigation
+
+- **[HaveIBeenPwned](https://haveibeenpwned.com/)** — Data breach check
+- **[Hunter.io](https://hunter.io/)** — Email format & source finder
+- **[Namechk](https://namechk.com/)** — Social media profile search
+- **[Sherlock](https://github.com/sherlock-project/sherlock)** — Username OSINT tool
+- **[Holehe](https://github.com/megadose/holehe)** — Check email usage on multiple sites
 
 ---
 
-## ⚠ Disclaimer
-> This guide is for **educational purposes only**. All security testing should be done **legally and ethically**, in authorized environments. The author is not responsible for any misuse.
+## 🌐 Domain & Website OSINT
+
+- **[Whois Lookup](https://whois.domaintools.com/)**
+- **[DNSDumpster](https://dnsdumpster.com/)**
+- **[Shodan](https://www.shodan.io/)** — IoT device search
+- **[Censys](https://censys.io/)** — Internet-wide scan data
+- **[theHarvester](https://github.com/laramies/theHarvester)** — Email, subdomain & host search
 
 ---
 
-### 👨‍💻 Author
-**NO NAME** — Cybersecurity Enthusiast & Educator  
+## 📄 File & Metadata Analysis
+
+- **[FOCA](https://github.com/ElevenPaths/FOCA)**
+- **[Metagoofil](https://github.com/laramies/metagoofil)**
+- **[ExifTool](https://exiftool.org/)**
+- **[strings (Linux command)](https://man7.org/linux/man-pages/man1/strings.1.html)** — Extract readable text from binary files
+
+---
+
+## 🌍 Geolocation OSINT
+
+- **[GeoGuessr](https://www.geoguessr.com/)** — Street view location guessing
+- **[Mapillary](https://www.mapillary.com/)**
+- **[Google Earth Pro](https://www.google.com/earth/versions/#earth-pro)**
+- **[GeoIP Lookup](https://geoiptool.com/)** — IP location
+
+---
+
+## 🛠 Advanced OSINT Tools for Experts
+
+- **[Maltego](https://www.maltego.com/)** — Link analysis & relationship mapping
+- **[SpiderFoot](https://www.spiderfoot.net/)** — Automated OSINT collection
+- **[Recon-ng](https://github.com/lanmaster53/recon-ng)** — Modular OSINT framework
+- **[OSINT Combine Tools](https://www.osintcombine.com/tools)** — Specialized tools for investigators
+
+---
+
+## 📌 OSINT Workflow Example (Email Investigation)
+
+**Scenario:** You have an email `john.doe@example.com`
+
+1. **Check breaches:** HaveIBeenPwned → get leaked passwords/dates  
+2. **Verify accounts:** Holehe → check account usage on services  
+3. **Search username:** Sherlock → find social profiles  
+4. **Scan images:** If social profiles found, run ExifTool on posted images  
+5. **Map connections:** Use Maltego to visualize relationships
+
+---
+
+## 📚 Must-Read OSINT Resources
+
+- [OSINT Framework](https://osintframework.com/) — Interactive OSINT tool index
+- [Bellingcat OSINT Guide](https://www.bellingcat.com/resources/how-tos/)
+- [The Hitchhiker’s Guide to OSINT](https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf)
+- [Michael Bazzell's OSINT Techniques Book](https://inteltechniques.com/book1.html)
+
+---
+
+## 🏷 Tags & Topics
+`osint` `open-source-intelligence` `cybersecurity` `infosec` `digital-forensics` `threat-intelligence` `investigation` `security-research` `cheat-sheet` `ethical-hacking` `red-team` `blue-team` `cyber-investigation`
+
+---
+
+## 👨‍💻 Author
+**ALPHA** — Cybersecurity Enthusiast & Educator  
 **Team:** CYBER GHOST  
-
+**Signature:** SIG X  
 
 ---
