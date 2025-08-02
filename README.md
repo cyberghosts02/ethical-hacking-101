@@ -128,6 +128,6 @@ It’s used by:
 ## 👨‍💻 Author
 **ALPHA** — Cybersecurity Enthusiast & Educator  
 **Team:** CYBER GHOST  
-**Signature:** SIG X  
+
 
 ---
